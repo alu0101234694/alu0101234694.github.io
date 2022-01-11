@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Sofía Álvarez</title>
+       <meta charset="UTF-8">
+  <meta name="description" content="Mi Portfolio">
+  <meta name="keywords" content="HTML, CSS, Portfolio">
+  <meta name="author" content="Sofía María Álvarez López">
+  <meta name="viewport" content="width=device-width, initial-scale=10">
+  <link rel= "stylesheet" href="./layout.css">
+  <link rel= "stylesheet" href="./skin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poiret+One&family=Righteous&display=swap" rel="stylesheet">
+<link rel= "stylesheet" href="./imagenes.css">
+  <body class= 'general fondo_general'> </body>
+   <!-- 
+    en la parte superior vamos a poner una cabecera
+    -->
+   <header class="padding_20 vw_100-vh_20 fondo_1 ">
+     <h1> MANTIS DE LAS FLORES </h1>  
+     
+   </header>
+   <header class="padding_20 vw_100-vh_5 imagenfondo fondo_2 "> 
+     
+     <h1>HANDPOKED</h1>
+     <div class="action">
+      <div class="profile" onclick="menuToggle();">
+        <img src="img/icono.jpg">
+      </div>
+      <div class="menu">
+        <h3>someone<br><sapn>Website Designer</sapn></h3>
+        <ul>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">Edit Profile</a></li>
+          <li><a href="#">Inbox</a></li>
+          <li><a href="#">Stting</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Logout</a></li>
+
+        </ul>
+      </div> 
+      <script>
+        function menuToggle(){
+          const toggleMenu = document.querySelector('.menu'); toggleMenu.classList.toggle('active')
+        }
+      </script> 
+   </div>
+  </header>
+   <!---menudenavegacion horizontal-->
+   <nav class= "vw_100-vh_10 fondo_1">
+     <ul class="listamenu flota_derch">
+       <li class="padding_20 flota_derch fondo_boton boton1">About</li>
+       <li class="padding_20 flota_derch fondo_boton boton1">Work</li>
+       <li class="padding_20 flota_derch fondo_boton boton1">Contact</li>
+       <a href="ejemploimag.html"><li class= "padding_20 flota_derch  fondo_boton boton1">IMAGE</li></a>
+       <li class="padding_20 flota_derch fondo_boton boton1">VIDEO</li>
+     </ul>
+   </nav>    
+   <!---primeraseccionhorizontal-->
+
+   <section class="vw_100-vh_70">
+           <aside class="padding_20 w_20pc_vh_70 flota_izqda fondo_2">
+             <div class="listamenu flota_izqda"> MENU</div>
+            
+             <ul class="listamenu flota_izqda">
+               <li class="padding_20 fondo_boton boton2">ABOUT</li>
+               <li class="padding_20 fondo_boton boton2">WORK</li>
+               <li class="padding_20 fondo_boton boton2">CONTACT</li>
+               <div class="listamenu flota_izqda"></div> 
+               <a href="ejemploimag.html"><li class= "padding_20 fondo_boton boton2">IMAGE</li></a>
+               <li class="padding_20 fondo_boton boton2">VIDEO</li>
+             </ul> 
+             
+           </aside>
+           <article class="w_30pc_vh70 flota_izqda fondo_3">
+             
+            <h1 class="title">Baldosas Hidraúlicas</h1>
+            
+            <img class="imagen" src="img/baldosas1.jpg" >
+             
+              <a href="ejemploimag.html"> Pincha aqui para el segundo ejemplo</a>
+            <p> En este ejemplo vamos aplocar los estilos siguiendo el modelo OOCSS (object oriented CSS).Sus reglas son:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+             <ol>
+               <li> Separa la estructura del aspecto(skin)</li>
+               <li> Separa el continente del contenido</li>
+             </ol>
+             <p>En esta pagina nos vamos a centrar en la primera regla.</p>
+           </article>
+           <article class="w_30pc_vh70 flota_izqda fondo_3">
+            <img class="colum" src="img/baldosa2.jpg">
+             Articulo 2
+           </article>
+           <aside class="w_20pc_vh_70 flota_izqda fondo_2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+           </aside>
+   </section>
+    
+    <!--
+   segunda seccion en horizontal
+    -->
+    <section>
+      <aside class="w_20pc_vh_70 flota_izqda fondo_2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+      </aside>
+      <article class="w_30pc_vh70 flota_izqda fondo_3">
+
+        <img class="colum" src="img/icono.jpg">
+        <p> Foto 1</p>
+      </article>
+      <article class="w_30pc_vh70 flota_izqda fondo_3">
+        <img class="colum" src="img/japonesa1.jpg">
+        <p> </p>
+      </article>
+      <aside class="w_20pc_vh_70 flota_izqda fondo_2">
+        <div id="cuadrado"></div>
+        lado derecho
+      </aside>
+    </section>
+
+    <!--
+    tercera sección horizontal
+    -->
+    <section>
+       <aside class="w_20pc_vh_70 flota_izqda fondo_2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+       </aside>
+       <article class="w_30pc_vh70 flota_izqda fondo_3 ">
+         <video width="250"  height="250" autoplay controls class="video">
+           <source src="img/GIFF evoluvion.mp4">
+         </video>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni et eligendi similique vitae ut quibusdam laudantium aliquam necessitatibus eum voluptate harum, deleniti, accusantium ex praesentium iusto exercitationem rerum fugiat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis pariatur nostrum odit dolorem tempore incidunt debitis temporibus quia aut quam nulla soluta dolorum error aperiam, quasi obcaecati optio, distinctio ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam minus, voluptates delectus, rem recusandae temporibus consectetur dolores labore obcaecati similique officiis? Architecto velit qui laborum quis quos earum, dicta assumenda.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni et eligendi similique vitae ut quibusdam laudantium aliquam necessitatibus eum voluptate harum, deleniti, accusantium ex praesentium iusto exercitationem rerum fugiat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis pariatur nostrum odit dolorem tempore incidunt debitis temporibus quia aut quam nulla soluta dolorum error aperiam, quasi obcaecati optio, distinctio ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam minus, voluptates delectus, rem recusandae temporibus consectetur dolores labore obcaecati similique officiis? Architecto velit qui laborum quis quos earum, dicta assumenda.</p>
+       </article>
+       <article class="w_30pc_vh70 flota_izqda fondo_3">
+         <img class="imagen2" src="img/patrongato.png">
+         <p> </p>
+       </article>
+       <aside class="w_20pc_vh_70 flota_izqda fondo_2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ratione nobis necessitatibus maiores iste natus expedita beatae, magni, corrupti consectetur praesentium rerum? Rerum at quisquam commodi harum molestiae, dignissimos ipsum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, sit ipsum. Officiis dolorem quod, autem modi, consequatur, tempore ipsum perferendis impedit ea atque quia blanditiis suscipit veniam cumque dolore debitis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, saepe laborum. Sint, est sed. Illo corporis, nam cupiditate similique quam adipisci fugit, alias corrupti veritatis nobis cumque dolorum atque quaerat.</p>
+       </aside>
+       </section>
+       <!-- pie de pagina (footer)-->
+
+
+    <!--
+    en el footer va el copyright y demás información importante
+    -->
+    <footer class="vw_100-vh_10 fondo_negro">
+    <p>Pie de pagina: Copyright Sofía María Álvarez López - 2021</p> 
+   
+    </footer>
+    </body>
+</html>

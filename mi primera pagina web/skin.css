@@ -1,0 +1,18 @@
+.fondo_general{background-color: rgb(66, 104, 104);}
+.fondo_1{background-color: rgb(0, 53, 50);border:1px solid rgb(255, 166, 0);}
+.fondo_2{background-color: #1c6d65;border: 1px solid rgb(255, 166, 0);}
+.fondo_3{background-color: #ffe5d9;border: 1px solid rgb(255, 166, 0);}
+.fondo_blanco{background-color: white;color: black;border: 1px solid rgb(255, 166, 0);}
+.fondo_negro{background-color: rgb(66, 104, 104);color: white;border: 1px solid rgb(255, 166, 0);}
+.padding_20{padding: 20px;}
+.fondo_boton{background-color: rgb(255, 174, 174);}
+.listamenu{list-style-type: none; }
+@media screen and (max-width: 700px){
+.fondo_general, .boton2{
+flex-direction: columns;    
+}}
+.imagenfondo{
+    background-image: url("img/patrongato.png");
+    
+
+}

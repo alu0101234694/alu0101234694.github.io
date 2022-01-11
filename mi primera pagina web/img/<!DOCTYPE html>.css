@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Sofía Álvarez</title>
+       <meta charset="UTF-8">
+  <meta name="description" content="Mi Portfolio">
+  <meta name="keywords" content="HTML, CSS, Portfolio">
+  <meta name="author" content="Sofía María Álvarez López">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      *{margin: 0;}
+      body{background-color:blanchedalmond;width: 90vw;margin:auto;}
+      header{background-color:aquamarine;height: 10vh;}
+      nav{background-color:aquamarine;height: 10vh;}
+      section{background-color:white;height: 70vh;}
+      footer{background-color:black;color:white;height: 10vh;}
+      ul{list-style-type: none;}
+      li{float: left;background-color:cadetblue;padding: 20px;margin:5px;border 2px solid blue;}
+  </style>
+    </head>
+    <body>
+    <!-- 
+    en la parte superior vamos a poner una cabecera
+    -->
+   <header>
+     <h1>Porfolio de Sofía Álvarez</h1>  
+     
+   </header> 
+    
+    <!--
+    debajo de la cabecera ponemos un menú horizontal
+    -->
+    <nav>
+      <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./work.html">WORK</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+      </ul>  
+    </nav>
+    
+    <!--
+    aquí pondremos la sección horizontal con información
+    -->
+    <section>
+       <p> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu odio ac velit rutrum ultricies vitae non orci. Mauris in gravida velit. Nullam egestas urna nec metus posuere posuere. Donec scelerisque lectus justo, nec hendrerit nisi lacinia id. Aliquam aliquam, sapien ut gravida posuere, massa quam dapibus arcu, nec commodo arcu lectus sit amet est. Duis dui risus, feugiat vitae sapien sed, consequat rhoncus dolor. Curabitur felis turpis, tincidunt vitae risus et, eleifend porttitor sapien.</p>
+
+       <p> Nunceu metus at dolor iaculis cursus in vitae sem. In lacinia viverra volutpat. Etiam consequat tempor nisl, et lobortis dui luctus quis. Aliquam erat volutpat. Suspendisse potenti. Aenean ac lobortis dolor, a auctor elit. In non dapibus urna, et mattis erat. Duis dictum dolor est, vel sagittis massa dignissim id. Nunc ullamcorper, nunc ut luctus sodales, velit erat efficitur elit, a hendrerit leo ex at libero. Pellentesque vel sagittis justo, id lobortis eros. Proin a molestie ligula. Nam varius turpis et diam consequat, eget consectetur mi venenatis. Aliquam dapibus purus vitae orci pretium, eu pharetra diam placerat. Praesent eget magna nibh. Aenean maximus eu nunc quis consequat.</p>  
+    </section>
+    <!--
+    en el footer va el copyright y demás información importante
+    -->
+    <footer>
+    <p>Copyright Sofía María Álvarez López - 2021</p>    
+    </footer>
+    </body>
+</html>
